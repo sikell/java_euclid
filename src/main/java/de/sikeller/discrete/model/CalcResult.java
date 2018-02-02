@@ -1,11 +1,10 @@
 package de.sikeller.discrete.model;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 
 import java.util.function.Supplier;
 
-@AllArgsConstructor(access = AccessLevel.PACKAGE)
+@AllArgsConstructor
 public abstract class CalcResult<A> {
 
     private final boolean hasResult;
